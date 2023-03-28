@@ -17,3 +17,7 @@ The player can press the jump button in order to perform a dive and slow down ti
 The player can press the crouch button to slide into enemies and damage them
 
 These player actions are stored into the ActionComponent, and are Actor independent. This means that you can easily attach this component to any actor (plug and play), which will enable these abilities.
+
+
+
+[![Example Video](https://img.youtube.com/vi/5uZ1TJ-ximA/0.jpg)](https://www.youtube.com/watch?v=5uZ1TJ-ximA)
