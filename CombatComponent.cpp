@@ -71,9 +71,9 @@ void UCombatComponent::StartFiringWeapon(AWeapon* Weapon)
 		//Dirty AF way to get the weapon variables back to null.. it is what it is i'm not the best programmer :))
 		// Weapon = nullptr won't work 
 		if (Weapon == CurrentWeapon)
-			CurrentWeapon = nullptr; //We need to nulify!
+			CurrentWeapon = nullptr;
 		else if (Weapon == CurrentWeaponSecondary)
-			CurrentWeaponSecondary = nullptr; //We need to nulify!
+			CurrentWeaponSecondary = nullptr;
 
 		return;
 	}
